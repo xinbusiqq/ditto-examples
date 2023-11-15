@@ -101,5 +101,12 @@
     }
   },
   "actions": {},
-  "events": {}
+  "events": {},
+  "links": [
+    {
+      "href": "https://github.com/xinbusiqq/ditto-examples/blob/master/wot/models/company-statistics-1.0.0.tm.jsonld",
+      "rel": "tm:submodel",
+      "type": "application/tm+json"
+    }
+  ]
 }
