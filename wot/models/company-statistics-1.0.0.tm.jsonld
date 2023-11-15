@@ -1,0 +1,33 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "title": "企业数据统计",
+  "@type": "tm:ThingModel",
+  "id": "companyStatistics",
+  "base": "https://github.com/xinbusiqq/ditto-examples/blob/master/wot/models/company-statistics-1.0.0.tm.jsonld",
+  "securityDefinitions": {
+    "nosec_sc": {
+      "scheme": "nosec"
+    }
+  },
+  "security": "nosec_sc",
+  "properties": {
+    "vehicleCount": {
+      "title": "vehicleCount",
+      "observable": false,
+      "readOnly": false,
+      "description": "车辆数量",
+      "type": "integer",
+      "forms": []
+    },
+    "mileageTotal": {
+      "title": "mileageTotal",
+      "observable": false,
+      "readOnly": false,
+      "description": "总里程",
+      "type": "string",
+      "forms": []
+    }
+  },
+  "actions": {},
+  "events": {}
+}
