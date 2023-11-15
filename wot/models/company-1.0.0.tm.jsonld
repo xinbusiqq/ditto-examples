@@ -1,0 +1,105 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "title": "企业模型",
+  "@type": "tm:ThingModel",
+  "id": "company",
+  "base": "https://github.com/xinbusiqq/ditto-examples/blob/master/wot/models/company-1.0.0.tm.jsonld",
+  "securityDefinitions": {
+    "nosec_sc": {
+      "scheme": "nosec"
+    }
+  },
+  "security": "nosec_sc",
+  "properties": {
+    "abbreviation": {
+      "title": "abbreviation",
+      "observable": false,
+      "readOnly": false,
+      "description": "缩写",
+      "type": "string",
+      "forms": []
+    },
+    "address": {
+      "title": "address",
+      "observable": false,
+      "readOnly": false,
+      "description": "地址",
+      "type": "string",
+      "forms": []
+    },
+    "companyType": {
+      "title": "companyType",
+      "observable": false,
+      "readOnly": false,
+      "description": "企业类型",
+      "type": "string",
+      "forms": []
+    },
+    "kind": {
+      "title": "kind",
+      "observable": false,
+      "readOnly": false,
+      "description": "种类",
+      "type": "string",
+      "forms": []
+    },
+    "name": {
+      "title": "name",
+      "observable": false,
+      "readOnly": false,
+      "description": "名称",
+      "type": "string",
+      "forms": []
+    },
+    "phone": {
+      "title": "phone",
+      "observable": false,
+      "readOnly": false,
+      "description": "联系电话",
+      "type": "string",
+      "forms": []
+    },
+    "region": {
+      "title": "region",
+      "observable": false,
+      "readOnly": false,
+      "description": "区域",
+      "type": "string",
+      "forms": []
+    },
+    "staffNum": {
+      "title": "staffNum",
+      "observable": false,
+      "readOnly": false,
+      "description": "企业人数",
+      "type": "string",
+      "forms": []
+    },
+    "termOperation": {
+      "title": "termOperation",
+      "observable": false,
+      "readOnly": false,
+      "description": "经营年限",
+      "type": "string",
+      "forms": []
+    },
+    "type": {
+      "title": "type",
+      "observable": false,
+      "readOnly": false,
+      "description": "类型",
+      "type": "string",
+      "forms": []
+    },
+    "website": {
+      "title": "website",
+      "observable": false,
+      "readOnly": false,
+      "description": "网址",
+      "type": "string",
+      "forms": []
+    }
+  },
+  "actions": {},
+  "events": {}
+}
